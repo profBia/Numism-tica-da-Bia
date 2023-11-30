@@ -1,12 +1,53 @@
-p{
-    color: brown;
-    text-align: justify;
-    font-size: 20px;
+
+/* Estilos CSS para o corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
-h1{color: red;
-text-align: center;
-font-style: italic;
-text-decoration: overline underline;
-font-size: 40px;
+/* Estilos CSS para o cabeçalho */
+h1.destaque {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos CSS para os parágrafos */
+#paragrafo1, #paragrafo2 {
+    text-align: justify;
+    margin: 20px;
+    color: #555;
+}
+
+/* Estilos CSS para a imagem */
+.imagem-container {
+    border: 5px solid #333;
+    padding: 10px;
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos CSS para o plano de fundo */
+body {
+    background-image: url('background-image.jpg'); /* Substitua 'background-image.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Cor do texto sobre a imagem de fundo */
+}
+header{
+    padding: 20px;
+    background-color:aquamarine ;
+    border-bottom: red 10px solid;
+    color: red;
+    font-size: 35px;
 }
